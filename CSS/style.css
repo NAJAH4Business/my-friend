@@ -1,0 +1,155 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header{
+    background-color: rgb(241, 241, 241);
+    padding-top: 10px;
+}
+.header nav{
+    height:5vh;
+    text-align: center;
+}
+.header nav a{
+    margin: 0px 10px;
+    text-decoration: none;
+    
+}
+.header nav li{
+    color: rgb(0, 0, 0);
+    display: inline;
+}
+/* main */
+.header main{
+    color: white;
+    padding-top:30px ;
+    background-color: rgb(68, 0, 255);
+    height: 45vh;
+    text-align: center;
+}
+.header main h2{
+    margin-bottom:40px;  
+}
+.header main p{
+    line-height: 30px;
+    font-size: larger;
+}
+.header main button{
+    border: none;
+    background-color: rgb(231, 125, 4);
+    border-radius: 15px;
+    width: 200px;
+    height: 35px;
+}
+.pheader{
+    margin-bottom:30px;
+}
+/* header-end */
+
+/* About-start */
+.About{
+    background-color: rgb(241, 241, 241);
+    text-align: center;
+}
+.About h2{
+    padding: 30px 0px 0px 0px ;
+
+}
+#aboutimg{
+    margin: auto;
+    background-position:bottom;
+    background-size: cover;
+    background-image: url(../IMG/family.png);
+    width: 70%;
+    height: 70vh;
+}
+.pAbout0{
+    margin-top:40px;
+    font-size: larger;
+}
+
+.pAbout1{
+    margin-top:10px;
+    font-size: larger;
+    padding-bottom:100px;
+}
+/* About-end */
+
+/* family-start */
+.family{
+    padding-top:50px ;
+    display: flex;
+    flex-wrap: wrap;
+ }
+ .fdiv{   
+    margin: auto;
+    margin-left: 15%;
+    width: 300px;
+    margin-top: 30px;
+    height: 400px;
+    background-color: rgb(241, 241, 241);
+    border-radius: 20px;
+}
+.fdiv div{
+    margin: auto;
+    background-size: cover;
+    margin-top: 40px;
+    text-align: center; 
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+#img1{background-image:url(../IMG/man1.jpg);}
+#img2{background-image:url(../IMG/man2.jpg);}
+#img3{background-image:url(../IMG/man3.jpg);}
+#img4{background-image:url(../IMG/man4.jpg);}
+#img5{background-image:url(../IMG/man5.jpg); background-position:right;}
+#img6{background-image:url(../IMG/man6.jpg);}
+#img7{background-image:url(../IMG/man7.jpg);}
+#img8{background-image:url(../IMG/man8.jpg); background-position:center;}
+.fdiv p{
+    margin-top: 50px;
+    text-align: center;
+    font-size: larger;
+}
+.fdiv a{
+    color: black;
+    margin-left: 17%;
+}
+.fdiv i{
+    color:rgb(68, 0, 255);;
+    margin-top: 50px;
+    font-size:25px;
+}
+/* family-end */
+footer{
+    padding-top: 40px;
+    height: 25vh;
+    text-align: center;
+}
+.footinout{
+    height:20vh;
+    background-color: rgb(68, 0, 255);
+}
+.footinout input{
+    margin-top: 60px;
+}
+[type="text"]{
+    width: 200px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+}
+[type="submit"]{
+    width: 50px;
+    height: 30px;
+    border: none;
+    border-radius:20px;
+    background-color: rgb(231, 125, 4);
+}
+.footp{
+    color: white;
+    height: 5vh;
+    background-color: rgb(71, 71, 71);
+}
